@@ -53,9 +53,9 @@ public class TestStrategy {
     public static void main(String[] args) {
         Cart cart = new Cart(1512.75);
         
-        cart.pay(new Online("mark.reyes@gmail.com", "Wasd8456!"));
+        cart.pay(new Online("ardonroyce17@gmail.com"));
         
         cart = new Cart(375.25);
-        cart.pay(new Mobile("09123456789", 1234));
+        cart.pay(new Mobile("09123456789"));
     }
 }
